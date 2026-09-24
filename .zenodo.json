@@ -1,0 +1,42 @@
+{
+  "title": "Postoperative vital-sign summaries and sampling resolution: analysis code",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Analysis source accompanying the study: Early postoperative vital-sign summaries for 28-day mortality prediction after major abdominal surgery: external validation and sampling resolution. MIMIC-IV development and SICdb external evaluation; 12-hour landmark and separate within-SICdb sampling-resolution comparisons. Patient-level data, predictions and fitted model objects are not included. Runtime and reproduction limits are described in REPRODUCIBILITY.md.",
+  "creators": [
+    {
+      "name": "Huang, Qiuxia",
+      "affiliation": "Department of Echocardiography, Fuzhou University Affiliated Provincial Hospital, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China"
+    },
+    {
+      "name": "Huang, Long",
+      "affiliation": "Department of Respiratory and Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China"
+    },
+    {
+      "name": "Lin, Sheng",
+      "affiliation": "Department of Respiratory and Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China"
+    },
+    {
+      "name": "Lu, Fengfeng",
+      "orcid": "0009-0004-6137-9795",
+      "affiliation": "Department of Respiratory and Critical Care Medicine, Fuzhou University Affiliated Provincial Hospital, Fujian Provincial Hospital, Shengli Clinical Medical College of Fujian Medical University, Fuzhou, China"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "critical care",
+    "postoperative",
+    "vital signs",
+    "external validation",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "publication_date": "2026-09-24",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/fengwind11/postop-vitals-resolution",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
