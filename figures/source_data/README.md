@@ -1,0 +1,3 @@
+# Public figure source tables
+
+These tables contain aggregate results only. Figure_2_roc_pr_source.csv contains display approximations on a fixed 0.01 grid; individual risk thresholds and full rank-resolution ROC/PR coordinates are intentionally not distributed. Do not recompute AUROC or average precision from this grid. Use the frozen metric tables for reported estimates and confidence intervals. The manuscript figures were drawn from the authorized analysis; a redraw from the public grid can differ slightly in line shape without changing any reported metric. No individual predictions, outcomes, identifiers, trajectories, model objects, or fold assignments are included.

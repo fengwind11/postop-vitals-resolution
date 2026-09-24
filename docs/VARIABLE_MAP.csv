@@ -1,0 +1,23 @@
+variable,label,mimic_source,sicdb_source,harmonized_unit,rule,table_status
+age_years,Age,age_at_icu,AgeOnAdmission,years,frozen cohort value,MAIN
+male,Male sex,gender M/F,sex_label,binary,male=1 female=0,MAIN
+surgery_family,Surgery family,mapped qualifying ICD procedure codes,SurgicalSite 2211/2219/2225/2242/2253,category,upper GI; intestinal/colorectal; hepatobiliary/pancreatic; mixed/other,MAIN
+urgent_or_emergency,Urgency,admissions.admission_type,AdmissionUrgency 3137/3138,binary,not main because hospital-admission and surgical-urgency semantics differ,SUPPLEMENT_CONTEXT
+bmi,BMI,height plus overlapping/admission weight,HeightOnAdmission cm plus WeightOnAdmission grams,kg/m^2,SICdb grams divided by 1000; MIMIC coverage below 80%,SUPPLEMENT
+hypertension,Hypertension,ICD-9 401-405 or ICD-10 I10-I13/I15 on index hospitalization,ProcessedFields 3098 yes=740,binary,MIMIC has no POA flag; provenance disclosed,MAIN_WITH_NOTE
+diabetes,Diabetes,mimiciv_derived.charlson diabetes flags,ProcessedFields 3097 yes=740,binary,no unit conversion,MAIN
+chronic_lung_disease,Chronic lung disease,mimiciv_derived.charlson,ProcessedFields 3103 yes=740,binary,no unit conversion,MAIN
+chronic_renal_disease,Chronic renal disease,mimiciv_derived.charlson,ProcessedFields 3104 yes=740,binary,no unit conversion,MAIN
+lactate,Lactate,labevents 50813,laboratory 465/657,mmol/L,"first valid [t0,t0+12h); supplement by coverage rule",SUPPLEMENT
+creatinine,Creatinine,labevents 50912,laboratory 367,mg/dL,"first valid [t0,t0+12h)",MAIN
+hemoglobin,Hemoglobin,central lab labevents 51222,central lab 289,g/dL,blood-gas alternatives audited but not merged,MAIN
+wbc,White blood cell count,labevents 51300/51301,laboratory 301,10^9/L,K/uL and g/L are numerically equivalent to 10^9/L,MAIN
+platelets,Platelet count,labevents 51265,laboratory 314/315,10^9/L,K/uL and g/L are numerically equivalent to 10^9/L,MAIN
+invasive_mechanical_ventilation,Invasive mechanical ventilation,derived interval InvasiveVent/Tracheostomy,airway interval 720/3041 plus respirator setting in same window,binary,"overlap with [t0,t0+12h)",MAIN
+any_vasopressor,Any vasopressor,derived administered vasoactive-agent intervals,medication 1502/1550/1562/1593/1618,binary,"positive amount/rate and overlap with [t0,t0+12h)",MAIN
+HR_median,HR 12-h median,item 220045,707 then 724/708,beats/min,"median of valid 60-min bins in [t0,t0+12h)",MAIN
+HR_threshold_burden,HR threshold burden,item 220045,707 then 724/708,fraction,valid 60-min bins meeting >100 / valid 60-min bins,MAIN
+MAP_median,MAP 12-h median,220052 then 220181,703 then 706,mmHg,"median of valid 60-min bins in [t0,t0+12h)",MAIN
+MAP_threshold_burden,MAP threshold burden,220052 then 220181,703 then 706,fraction,valid 60-min bins meeting <65 / valid 60-min bins,MAIN
+SpO2_median,SpO2 12-h median,220277,710,%,"median of valid 60-min bins in [t0,t0+12h)",MAIN
+SpO2_threshold_burden,SpO2 threshold burden,220277,710,fraction,valid 60-min bins meeting <92 / valid 60-min bins,MAIN

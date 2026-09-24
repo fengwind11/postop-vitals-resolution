@@ -1,0 +1,5 @@
+dataset,validation,reference_model,comparator_model,metric,estimate,ci_low,ci_high,bootstrap_replicates,paired
+SICdb,locked_external_hourly_median,model12h_full_temporal_l1,model12h_level_only,auroc,0.013400027138046333,-0.004035255146435629,0.03202964345987191,2000,True
+SICdb,locked_external_hourly_median,model12h_full_temporal_l1,model12h_level_only,auprc,0.03874111415076975,-0.00506716325406686,0.08480933877678143,2000,True
+SICdb,locked_external_hourly_median,model12h_full_temporal_l1,model12h_level_only,brier,-0.0006708272330163689,-0.002183097226824199,0.0008473084090904535,2000,True
+SICdb,locked_external_hourly_median,model12h_full_temporal_l1,model12h_level_only,log_loss,-0.002847718566550722,-0.008476962326487997,0.0028182874142338304,2000,True

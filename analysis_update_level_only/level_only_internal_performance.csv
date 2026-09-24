@@ -1,0 +1,13 @@
+dataset,validation,n,events,model,metric,estimate,ci_low,ci_high,bootstrap_replicates
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,auroc,0.7629801284381437,0.7229128129239117,0.7995500880468333,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,auprc,0.2713714058604142,0.21621204432875338,0.3415533610432883,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,brier,0.07965544608937059,0.06965261407239674,0.09013102042695656,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,log_loss,0.27907677466171127,0.25024374662042587,0.30949214671202374,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,calibration_intercept,-0.010840145609962461,-0.1879084777799076,0.15732786807769344,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_full_temporal_l1,calibration_slope,1.0284128743602399,0.8349351551848416,1.2451554489162096,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,auroc,0.7129793711377681,0.6692843304555187,0.7540448000954746,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,auprc,0.23730806965955664,0.18577083625671373,0.3004934929397589,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,brier,0.0816210213061834,0.07120739344064411,0.09212807816655628,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,log_loss,0.29063535355244896,0.26036022962485034,0.32133144901140676,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,calibration_intercept,0.0007681100049544906,-0.17488782923363252,0.15848163257050715,2000
+MIMIC-IV,repeated_5x5_oof_patient_mean,1740,168,model12h_level_only,calibration_slope,1.07551012570988,0.8381401921369714,1.3201085787961795,2000

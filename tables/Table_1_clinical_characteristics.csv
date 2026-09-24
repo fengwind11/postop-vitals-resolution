@@ -1,0 +1,30 @@
+Characteristic,MIMIC-IV,SICdb,SMD
+"Patients, n",1740,2376,
+"Age, years","66.0 [55.0, 76.0]","70.0 [55.0, 80.0]",0.12
+Male sex,972 (55.9),1358 (57.2),0.03
+Surgery family,,,
+  Upper gastrointestinal,455 (26.1),968 (40.7),0.31
+  Intestinal/colorectal,823 (47.3),998 (42.0),0.11
+  Hepatobiliary/pancreatic,299 (17.2),410 (17.3),0.00
+  Multiple qualifying families,163 (9.4),0 (0.0),0.45
+  Other/unclassifiable,0 (0.0),0 (0.0),0.00
+Pre-existing comorbidity,,,
+  Hypertension,1004 (57.7),1081 (45.5),0.25
+  Diabetes mellitus,427 (24.5),401 (16.9),0.19
+  Chronic lung disease,392 (22.5),274 (11.5),0.30
+  Chronic renal disease,242 (13.9),292 (12.3),0.05
+"First valid laboratory value in [t0, t0+12 h)",,,
+"  Creatinine, mg/dL","0.90 [0.70, 1.30]; n=1689","0.90 [0.70, 1.14]; n=2096",0.16
+"  Hemoglobin, g/dL","10.7 [9.4, 11.9]; n=1671","10.9 [9.4, 12.5]; n=2144",0.10
+"  White blood cell count, 10^9/L","11.2 [7.7, 15.9]; n=1670","11.0 [7.7, 14.7]; n=2144",0.13
+"  Platelet count, 10^9/L","212 [152, 288]; n=1670","231 [177, 296]; n=2143",0.13
+"Treatment during [t0, t0+12 h)",,,
+  Invasive mechanical ventilation,905 (52.0),695 (29.3),0.48
+  Any vasopressor,623 (35.8),1313 (55.3),0.40
+"60-min physiology over [t0, t0+12 h)",,,
+"  Heart rate median, beats/min","91.5 [79.0, 104.0]; n=1737","79.5 [69.5, 90.5]; n=2376",0.65
+"  Tachycardia burden (HR >100), % valid hours","10.0 [0.0, 66.7]; n=1737","0.0 [0.0, 8.3]; n=2376",0.58
+"  MAP median, mmHg","74.0 [68.0, 82.0]; n=1710","74.0 [68.0, 83.0]; n=2374",0.06
+"  Hypotension burden (MAP <65), % valid hours","8.3 [0.0, 33.3]; n=1710","0.0 [0.0, 25.0]; n=2374",0.08
+"  SpO2 median, %","98.0 [96.5, 100.0]; n=1735","96.6 [95.4, 97.8]; n=2375",0.59
+"  Hypoxemia burden (SpO2 <92), % valid hours","0.0 [0.0, 0.0]; n=1735","0.0 [0.0, 0.0]; n=2375",0.03

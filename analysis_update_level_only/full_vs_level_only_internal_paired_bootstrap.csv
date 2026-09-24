@@ -1,0 +1,5 @@
+dataset,validation,reference_model,comparator_model,metric,estimate,ci_low,ci_high,bootstrap_replicates,paired
+MIMIC-IV,repeated_5x5_oof_patient_mean,model12h_full_temporal_l1,model12h_level_only,auroc,0.050000757300375565,0.022375606297444575,0.07780714104007225,2000,True
+MIMIC-IV,repeated_5x5_oof_patient_mean,model12h_full_temporal_l1,model12h_level_only,auprc,0.03406333620085755,-0.00810067795947568,0.0845882814476053,2000,True
+MIMIC-IV,repeated_5x5_oof_patient_mean,model12h_full_temporal_l1,model12h_level_only,brier,-0.001965575216812815,-0.004647199695934584,0.000673075282759002,2000,True
+MIMIC-IV,repeated_5x5_oof_patient_mean,model12h_full_temporal_l1,model12h_level_only,log_loss,-0.011558578890737692,-0.02019186474517333,-0.003295611748794297,2000,True

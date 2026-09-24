@@ -1,0 +1,9 @@
+name: postop-temporal-physiology
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.14
+  - pip
+  - r-base=4.5.2
+  - pip:
+      - -r requirements.txt

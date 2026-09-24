@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the archived version of this software and its associated article."
+title: "Postoperative vital-sign summaries and sampling resolution: analysis code"
+type: software
+authors:
+  - family-names: Huang
+    given-names: Qiuxia
+  - family-names: Huang
+    given-names: Long
+  - family-names: Lin
+    given-names: Sheng
+  - family-names: Lu
+    given-names: Fengfeng
+    orcid: "https://orcid.org/0009-0004-6137-9795"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/fengwind11/postop-vitals-resolution"
+date-released: "2026-09-24"

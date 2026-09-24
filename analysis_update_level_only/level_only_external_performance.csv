@@ -1,0 +1,13 @@
+dataset,validation,n,events,model,metric,estimate,ci_low,ci_high,bootstrap_replicates
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,auroc,0.7785066673245588,0.7411196073876526,0.814617694136693,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,auprc,0.2809303836496082,0.2232341407573291,0.3538094877663423,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,brier,0.06539775500375045,0.05687795541722325,0.0744705958497985,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,log_loss,0.23788448932777453,0.21198218298302215,0.26622876638772525,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,calibration_intercept,0.24337122634143096,0.07338957159878819,0.3920095833830078,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_full_temporal_l1,calibration_slope,1.2932785982261912,1.0785237341049487,1.5267635558639687,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,auroc,0.7651066401865124,0.7276349734341853,0.8015909938495426,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,auprc,0.24218926949883846,0.19336135714558864,0.30838555287758007,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,brier,0.06606858223676682,0.057807268016040324,0.07500273790210485,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,log_loss,0.24073220789432526,0.21663499101996422,0.26702749803662296,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,calibration_intercept,0.0034661574925972404,-0.1653574616737172,0.15161776564701288,2000
+SICdb,locked_external_hourly_median,2376,185,model12h_level_only,calibration_slope,1.3526292679441783,1.1280006090357855,1.6040135204838781,2000
